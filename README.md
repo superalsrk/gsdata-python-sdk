@@ -12,6 +12,22 @@
 
 ### 安装
 
+```bash
+$ pip install gsdata
 
+//或者
+
+$ easy_install gsdata
+```
 
 ### 使用
+
+```python
+
+from gsdata import Gsdata
+
+client = Gsdata(app_id = "YOUR_APP_ID", app_secret = "YOUR_APP_SECRET")
+params = {'id' : 3535, 'biz' : 'TESTBIZ'}
+
+result = client.execute('http://testurl.com', body = params)
+```
