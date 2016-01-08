@@ -1,6 +1,6 @@
 # gsdata-python-sdk
 
-![MIT](https://img.shields.io/npm/l/express.svg)  [![Build Status](https://img.shields.io/travis/superalsrk/rust-qiniu.svg)](https://travis-ci.org/superalsrk/gsdata-python-sdk)
+![MIT](https://img.shields.io/npm/l/express.svg)  [![Build Status](https://img.shields.io/travis/superalsrk/rust-qiniu.svg?v=3)](https://travis-ci.org/superalsrk/gsdata-python-sdk)
 
 
 ### 前言
