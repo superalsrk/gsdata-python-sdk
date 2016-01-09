@@ -8,16 +8,12 @@
 [gsdata-python-sdk](http://github.com/superalsrk/gsdata-python-sdk) 是一个非官方的gsdata python开发包, 祝使用愉快。
 
 + [issure地址](https://github.com/superalsrk/gsdata-python-sdk)
-+ 支持 python2.6, python2.7, python3.3, python3.4, python3.5
++ 支持 python2.6, python2.7, python3.2, python3.3, python3.4, python3.5
 
 ### 安装
 
 ```bash
-$ pip install gsdata
-
-//或者
-
-$ easy_install gsdata
+$ pip install -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com gsdata
 ```
 
 ### 使用
@@ -26,6 +22,7 @@ $ easy_install gsdata
 
 from gsdata import Gsdata
 
+#创建客户端
 client = Gsdata("YOUR_APP_ID", "YOUR_APP_SECRET")
 
 #获取用户信息
