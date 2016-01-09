@@ -1,10 +1,15 @@
 # -*- coding: utf-8 -*-
 
-import unittest
+import sys
+
+if (sys.version_info < (2,7)):
+  import unittest2 as unittest
+else:
+  import unittest
+
 import json
 from gsdata import Signature
 from gsdata import Gsdata
-
 
 class TestGsdata(unittest.TestCase):
 	def test_md5(self):
