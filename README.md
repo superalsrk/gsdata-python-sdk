@@ -1,6 +1,6 @@
 # gsdata-python-sdk
 
-![MIT](https://img.shields.io/npm/l/express.svg)  [![Build Status](https://travis-ci.org/superalsrk/gsdata-python-sdk.svg?branch=master&v=11)](https://travis-ci.org/superalsrk/gsdata-python-sdk)
+![MIT](https://img.shields.io/npm/l/express.svg) [![version](https://img.shields.io/pypi/v/gsdata.svg)](https://pypi.python.org/pypi/gsdata)  [![Build Status](https://travis-ci.org/superalsrk/gsdata-python-sdk.svg?branch=master&v=11)](https://travis-ci.org/superalsrk/gsdata-python-sdk)
 
 
 ### 前言
