@@ -32,7 +32,7 @@ ret1 = client.sys_user_info('saber@stackbox.org')
 ret2 = client.sys_check_user('saber@stackbox.org')
 
 #其他API, 第一个参数为API地址, 第二个参数为请求参数字典(除去appid和appkey)
-t = client.call('/api/wx/wxapi/wx_content', {'url':'http://mp.weixin.qq.com/s?__biz=MzAxOTEyMDI1MQ==&mid=400950548&idx=3&sn=cca852f541f93c53633a4e0069230313&3rd=MzA3MDU4NTYzMw==&scene=6#rd'})
+ret3 = client.call('/api/wx/wxapi/wx_content', {'url':'http://mp.weixin.qq.com/s?__biz=MzAxOTEyMDI1MQ==&mid=400950548&idx=3&sn=cca852f541f93c53633a4e0069230313&3rd=MzA3MDU4NTYzMw==&scene=6#rd'})
 		
 ```
 
