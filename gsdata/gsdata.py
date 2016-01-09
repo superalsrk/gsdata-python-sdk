@@ -29,7 +29,7 @@ class Gsdata:
 
 		return requests.post(self.__class__.host + api,
 						headers = {'Content-Type': 'application/octet-stream'},
-						data = base64.encodestring(('%s' % params_json).encode().decode()).text
+						data = base64.encodestring(params_json.encode('utf-8'))).text
 	@property
 	@classmethod
 	def host(cls):
