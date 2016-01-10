@@ -5,7 +5,7 @@
 
 ### 前言
 
-[gsdata-python-sdk](http://github.com/superalsrk/gsdata-python-sdk) 是一个非官方的gsdata python开发包, 祝使用愉快。
+[gsdata-python-sdk](http://github.com/superalsrk/gsdata-python-sdk) 是一个非官方的 [gsdata](http://open.gsdata.cn/) python开发包, 祝使用愉快。
 
 + [issure地址](https://github.com/superalsrk/gsdata-python-sdk)
 + 支持 python2.6, python2.7, python3.2, python3.3, python3.4, python3.5
